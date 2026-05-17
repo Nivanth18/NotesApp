@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 const bcrypt   = require('bcryptjs');
-
+//
 // Schema defines the shape of a User document in MongoDB
 const userSchema = new mongoose.Schema(
   {
